@@ -41,7 +41,7 @@ public class Main {
 //        }
 
 //  Uppgift 3: Hämta alla läsare(readers) som har läst en viss bok (member of)
-//        Book nilsHolgersson = em.find(Book.class, 3L);
+//        Book nilsHolgersson = em.find(Book.class, 4L);
 //        List<Reader> readersOfTheBook = em.createQuery("select r from Reader r " +
 //                        "where :book member of r.readBooks", Reader.class)
 //                .setParameter("book", nilsHolgersson)
